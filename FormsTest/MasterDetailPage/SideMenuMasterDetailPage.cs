@@ -15,15 +15,13 @@ namespace FormsTest
 			detailNavigationPage.BarTextColor = Color.White;
            
 			this.Detail = detailNavigationPage;
-
-
-
-
+         
             // the side menu page
 			SideMenuContentPage masterPage = new SideMenuContentPage();
             
 			this.Master = masterPage;
 			this.MasterBehavior = MasterBehavior.Popover;
+			IsGestureEnabled = true;
 
         }
     }
