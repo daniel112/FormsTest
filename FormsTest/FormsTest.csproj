@@ -5,11 +5,18 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="3.0.0.446417" />
+    <PackageReference Include="Xamarin.Forms" Version="3.0.0.482510" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="MasterDetailPage\" />
-    <Folder Include="ContentPage\" />
     <Folder Include="Models\" />
+    <Folder Include="Renderers\" />
+    <Folder Include="Renderers\ListView\" />
+    <Folder Include="Views\" />
+    <Folder Include="ViewModels\" />
+    <Folder Include="Views\ContentPage\" />
+    <Folder Include="Views\MasterDetailPage\" />
+    <Folder Include="Views\NavigationPage\" />
+    <Folder Include="Views\NavigationPage\Base\" />
+    <Folder Include="Constants\" />
   </ItemGroup>
 </Project>

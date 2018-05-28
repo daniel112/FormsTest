@@ -1,0 +1,14 @@
+﻿using System;
+using Xamarin.Forms;
+
+namespace FormsTest.Views.Base
+{
+    public class BaseNavigationPage : NavigationPage
+    {
+        public BaseNavigationPage(Page root) : base(root)
+        {
+            BarBackgroundColor = Color.Black;
+            BarTextColor = Color.White;
+        }
+    }
+}

@@ -1,7 +1,7 @@
 ﻿using System;
 namespace FormsTest.Models
 {
-	public class MasterPageItem
+	public class SideMenuItem
     {
         public string Title { get; set; }
 
