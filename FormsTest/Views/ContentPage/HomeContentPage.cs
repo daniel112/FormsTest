@@ -23,7 +23,13 @@ namespace FormsTest.Views
         private void SetupContent()
         {
             this.Title = "Home";
-            this.BackgroundColor = Color.OrangeRed;
+            //Image backgroundImage = new Image();
+            //backgroundImage.Aspect = Aspect.AspectFit;
+            //backgroundImage.Source = ImageSource.FromFile("default_bckground_portrait");
+           // var layout = new RelativeLayout();
+           // layout.Children.Add(backgroundImage,0, 0, Application.Current.MainPage.Width,Application.Current.MainPage.Height);
+           //Content = layout;
+
         }
 
         #endregion

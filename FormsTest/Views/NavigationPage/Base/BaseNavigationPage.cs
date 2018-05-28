@@ -7,7 +7,7 @@ namespace FormsTest.Views.Base
     {
         public BaseNavigationPage(Page root) : base(root)
         {
-            BarBackgroundColor = Color.Black;
+            BarBackgroundColor = Color.Green;
             BarTextColor = Color.White;
         }
     }

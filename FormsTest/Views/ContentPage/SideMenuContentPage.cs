@@ -35,7 +35,7 @@ namespace FormsTest
 					_listView.ItemTemplate = new DataTemplate(() => {                        
                         var grid = new Grid { Padding = new Thickness(5, 10) };
                          grid.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(30) });
-                         //grid.ColumnDefinitions.Add(new ColumnDefinition { Width = GridLength.Star });
+                         grid.ColumnDefinitions.Add(new ColumnDefinition { Width = GridLength.Star });
 
                          var image = new Image();
                          image.SetBinding(Image.SourceProperty, "IconSource");
@@ -73,11 +73,10 @@ namespace FormsTest
 
 		private void SetupContent()
         {
-
-            Icon = "nav_menu";
+            
             Title = "Side Menu Content";
+            Icon = "nav_menu.png";
 			BackgroundColor = Color.Black;
-
 			Label labelHeader = new Label
 			{
 				Text = "Piedmontese",

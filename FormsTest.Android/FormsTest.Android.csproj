@@ -88,6 +88,9 @@
     <AndroidResource Include="Resources\drawable-xhdpi\nav_menu.png" />
     <AndroidResource Include="Resources\drawable-xxhdpi\nav_menu.png" />
     <AndroidResource Include="Resources\drawable-xxxhdpi\nav_menu.png" />
+    <AndroidResource Include="Resources\drawable\side_menu_home.png" />
+    <AndroidResource Include="Resources\drawable\side_menu_shop.png" />
+    <AndroidResource Include="Resources\drawable\nav_menu.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />

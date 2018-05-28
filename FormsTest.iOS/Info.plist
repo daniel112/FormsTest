@@ -25,7 +25,7 @@
 	<key>CFBundleDisplayName</key>
 	<string>FormsTest</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.companyname.FormsTest</string>
+	<string>com.FormsTest</string>
 	<key>CFBundleVersion</key>
 	<string>1.0</string>
 	<key>UILaunchStoryboardName</key>
